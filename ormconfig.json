@@ -1,0 +1,15 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "#{-CS+qHv/mrd)wz>y2n%]$7WtD3*_4dd^a@Tby/U<Rq6wDEVu",
+  "database": "nestjs-auth",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "logging": false,
+  "synchronize": true,
+  "migrations": ["dist/database/migration/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/database/migration"
+  }
+}
